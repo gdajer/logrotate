@@ -2,7 +2,8 @@
 		create 640 mysql mysql
 		notifempty
 		daily
-		rotate 3
+		maxsize 1G
+		rotate 10
 		missingok
 		compress
 	postrotate
