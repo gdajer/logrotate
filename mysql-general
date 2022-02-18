@@ -3,7 +3,7 @@
 		notifempty
 		daily
 		maxsize 1G
-		rotate 10
+		rotate 12
 		missingok
 		compress
 	postrotate
